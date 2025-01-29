@@ -82,6 +82,7 @@ Create a `.cypress-cucumber-preprocessorrc.json` file with the following content
             }
     ```
 
+![6Rxeu66efR](https://github.com/user-attachments/assets/d11318cf-cc29-4f14-a504-db98543ce54c)
 
 
 ## Multiple HTML Report
@@ -158,3 +159,6 @@ Create a `.cypress-cucumber-preprocessorrc.json` file with the following content
         });
 
     ```
+![iAPG0zxuZJ](https://github.com/user-attachments/assets/5ebf1b07-399d-45c5-b5b9-c0bcd6dd7f84)
+
+    
