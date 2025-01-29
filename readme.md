@@ -1,5 +1,5 @@
-# Cypress Project cypress using behavior drivent development
-This project uses Cypress for end-to-end testing, with support for the Cucumber preprocessor and reporting using Mochawesome.
+# Cypress Project cypress using Behavior Drivent development
+This project uses Cypress for end-to-end testing, with support for the Cucumber preprocessor and reporting.
 
 ## Installation
 
