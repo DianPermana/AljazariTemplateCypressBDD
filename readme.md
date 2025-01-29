@@ -11,9 +11,9 @@ This project uses Cypress for end-to-end testing, with support for the Cucumber 
     npm install --save-dev cypress-mochawesome-reporter @badeball/cypress-cucumber-preprocessor mochawesome
     ```
 
-Refference :
+## Refference :
 
-https://www.youtube.com/watch?v=5AGXK9cL2fs
+    https://www.youtube.com/watch?v=5AGXK9cL2fs
 
 ## Single HTML Report
 
@@ -21,9 +21,7 @@ https://www.youtube.com/watch?v=5AGXK9cL2fs
 
 Create a `.cypress-cucumber-preprocessorrc.json` file with the following content:
 
-    ```=========================
-    Single HTML Report
-    //=========================
+    ```
     .cypress-cucumber-preprocessorrc.json
     {
         "json": {
@@ -81,20 +79,20 @@ Create a `.cypress-cucumber-preprocessorrc.json` file with the following content
     "scripts": {
         "generate-report": "npx multiple-cucumber-html-reporter --reportDir cypress/reports --jsonDir cypress/cucumber-json",
         }
+```
 
 
+## Multiple HTML Report
 
+### Configuration
 
-    //=========================
-    Multiple HTML Report
-    //=========================
-
+```
     {  
-    "name": "cypress-cucumber-boilerplate",
-    "version": "2.2.0",
-    "description": "This project is meant to be a kind of template to start working with Cucumber and Cypress just cloning the project.",
+    "name": "aljazari-template",
+    "version": "1.0.0",
+    "description": "",
     "main": "index.js",
-    
+        
     "devDependencies": {
         "@badeball/cypress-cucumber-preprocessor": "^22.0.0",
         "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
